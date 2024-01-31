@@ -1,11 +1,19 @@
 .App {
 	text-align: center;
 	margin-top: 50px;
+	padding-left: 5%;
+	padding-right: 5%;
   }
   
+  html {
+	height: 100%;
+	background-image: linear-gradient(to top, #e8e8e8, #e8e8e8 50%);
+  }
+
   h1 {
 	font-size: 24px;
 	margin-bottom: 20px;
+	color: purple;
   }
   
   h2 {
@@ -19,13 +27,29 @@
   }
   
   li {
+	border: 1px solid #41444e;
 	cursor: pointer;
 	margin-bottom: 10px;
 	padding: 10px;
 	background-color: #f2f2f2;
-	border-radius: 5px;
+	border-radius: 1px;
+	box-shadow: #090909;
   }
   
   li:hover {
 	background-color: #e6e6e6;
+  }
+
+  .button {
+	border: 1px solid #41444e;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 15px 32px;
+	background-color: #f2f2f2;
+	border-radius: 1px;
+	box-shadow: #090909;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
   }
